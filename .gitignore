@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+generated/
+generated_scenarios/
+generated_scenarios.zip
+reconstruction/regenerated/
+.DS_Store
+Thumbs.db

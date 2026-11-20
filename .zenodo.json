@@ -1,0 +1,29 @@
+{
+  "title": "WSRS-Nitrogen-Dynamics: revised boundary reconstruction and nitrogen-budget analysis",
+  "upload_type": "software",
+  "doi": "10.5281/zenodo.24391730",
+  "version": "2.0.0",
+  "publication_date": "2026-11-20",
+  "license": "mit-license",
+  "creators": [
+    {
+      "name": "Jin, Haojie",
+      "orcid": "0009-0005-7100-3043"
+    }
+  ],
+  "description": "<p>Code and data supporting Event-scale reservoir nitrogen balance during water-sediment regulation in the Xiaolangdi Reservoir. Includes water-temperature and water-quality reconstruction protocols, frozen daily boundary series, 13 completed deterministic boundary scenarios and returned W2 mass balances, corrected 2025 station validation, native B00 nitrogen-process outputs, portable postprocessing, and manuscript/SI source tables. Four inclusive WSRS events total 61 days. The fitted box model in V1 is superseded.</p><p>The complete final W2 runtime project will be supplied separately by the author. This release verifies reconstruction and postprocessing of the supplied outputs, not full regeneration of the W2 simulations. Scenario envelopes are exploratory rather than probabilistic intervals. Native process diagnostics are B00-only model outputs.</p>",
+  "keywords": [
+    "Xiaolangdi Reservoir",
+    "CE-QUAL-W2",
+    "nitrogen budget",
+    "water-sediment regulation",
+    "boundary reconstruction"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/jinhhhh/WSRS-Nitrogen-Dynamics-v2",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

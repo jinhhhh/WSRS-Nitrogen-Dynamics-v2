@@ -1,0 +1,5 @@
+﻿Event,Scenarios,Baseline_export_excess_tN,Export_excess_min_tN,Export_excess_max_tN,Output_exceeds_input,Input_exceeds_output,Baseline_inventory_change_tN,Inventory_change_min_tN,Inventory_change_max_tN,Inventory_decrease,Inventory_increase,Baseline_R_tN,R_min_tN,R_max_tN,Positive_R,Negative_R
+E1,13,8699.9488,8182.4098,8994.4481,13,0,-9220.3326,-9487.8233,-8744.3684,13,0,520.38381,425.89212,594.09398,13,0
+E2,13,2351.214,564.33907,3524.8946,13,0,-2439.7318,-3398.1793,-932.67537,13,0,88.517765,-213.16275,446.68195,10,3
+E3,13,668.20207,373.5553,1034.6554,13,0,-593.73098,-1107.5277,-268.41089,13,0,-74.471086,-363.60501,331.98756,3,10
+E4,13,-432.09646,-1158.53,51.229716,1,12,611.41304,278.73173,1136.4426,0,13,-179.31657,-384.52093,77.838885,1,12

@@ -1,0 +1,3 @@
+﻿Scenario,Date,JDAY,Field,Proposed,Realized,TN_driver,NH4,Reason
+N01_NOx_TNderived_StressLow,2024-06-27,393,NOx,0.10457530311870143,0.10253085746183102,0.12753085746183102,0.025,Necessary NH4+NOx <= TN driver guard; organic/algal N not included
+J01_Cross_NOxLow_OMHigh_DOHigh,2024-06-27,393,NOx,0.10457530311870143,0.10253085746183102,0.12753085746183102,0.025,Necessary NH4+NOx <= TN driver guard; organic/algal N not included

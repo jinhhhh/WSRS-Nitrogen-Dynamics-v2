@@ -1,0 +1,19 @@
+{
+  "archive_files_verified": 144,
+  "observations_preserved": true,
+  "all_52_event_budgets_match": true,
+  "maximum_budget_table_rounding_difference_tN": 0.00045900000077381264,
+  "event_directions_match": true,
+  "native_process_comparison_matches": true,
+  "complete_days": 728,
+  "WSRS_days": 61,
+  "non_WSRS_days": 667,
+  "corrected_validation_matches": true,
+  "all_26_generated_boundary_files_byte_identical": true,
+  "water_quality_figures_regenerated": 7,
+  "range_figures_regenerated": 4,
+  "corrected_S12_plotting_executed": true,
+  "full_ML_refitting_executed": false,
+  "W2_simulations_rerun": false,
+  "complete_W2_runtime_project_included": false
+}

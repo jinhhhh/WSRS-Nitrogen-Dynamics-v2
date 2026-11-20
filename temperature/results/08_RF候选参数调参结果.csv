@@ -1,0 +1,5 @@
+﻿Candidate_ID,Composite_Score,N,RMSE,MAE,Bias,R2,Parameters
+1,4.66588083952663,314,5.0163322444880825,4.148376758633148,-2.922856801066453,0.5850664647584443,"{""n_estimators"": 400, ""max_depth"": null, ""min_samples_leaf"": 3, ""min_samples_split"": 6, ""max_features"": 0.7, ""bootstrap"": true}"
+2,4.804015182338766,314,5.171173281001852,4.257058486509947,-2.99127604656471,0.5590552953877606,"{""n_estimators"": 500, ""max_depth"": 12, ""min_samples_leaf"": 3, ""min_samples_split"": 6, ""max_features"": 0.8, ""bootstrap"": true}"
+3,4.90295160638618,314,5.2839103748896346,4.315830119408188,-3.068238220823619,0.5396195904385093,"{""n_estimators"": 500, ""max_depth"": 8, ""min_samples_leaf"": 5, ""min_samples_split"": 10, ""max_features"": 0.8, ""bootstrap"": true}"
+4,3.546046302095208,314,3.8468987923280094,3.1919950588123664,-1.9370024385463616,0.7559788490783823,"{""n_estimators"": 400, ""max_depth"": 16, ""min_samples_leaf"": 2, ""min_samples_split"": 5, ""max_features"": ""sqrt"", ""bootstrap"": true}"

@@ -1,0 +1,77 @@
+{
+  "source": "reconstruction/paper_package/tables/CIN_imputed_v2.csv",
+  "source_SHA256": "eca04d1568929242c3ea9790f5a7225000ec5860f6e875879385372cde4825f5",
+  "seed": 2026111602,
+  "lengths": [
+    1,
+    3,
+    7,
+    15,
+    30,
+    60,
+    115,
+    150,
+    162
+  ],
+  "residual_quantiles": [
+    0.05,
+    0.95
+  ],
+  "reference_masks_per_length": {
+    "1": 40,
+    "3": 24,
+    "other": 16
+  },
+  "outer_audits_per_length": {
+    "1": 12,
+    "3": 8,
+    "other": 6
+  },
+  "inner_masks_per_audit": {
+    "1": 24,
+    "3": 16,
+    "other": 10
+  },
+  "methods": [
+    "Linear",
+    "PCHIP",
+    "ExtraTrees",
+    "ET_bridge"
+  ],
+  "event_windows_1_based_inclusive": [
+    [
+      21,
+      41
+    ],
+    [
+      389,
+      398
+    ],
+    [
+      413,
+      429
+    ],
+    [
+      436,
+      448
+    ]
+  ],
+  "event_days": 61,
+  "reference_residual": "actual minus prediction; weight each pair by inverse multiplicity of its calendar date",
+  "residual_range": "base + empirical residual q05/q95, expanded to include base, truncated at zero",
+  "final_range": "union of residual reference and the four full-data method reconstructions on missing dates only",
+  "stress_range": "expand the reference envelope using minimum/maximum observed held-out residuals; no probability interpretation",
+  "audit": "Each outer audit block is removed from all inner calibration training labels and inner residual labels. Fixed v2 method, no outer retuning.",
+  "seasonal_flag": "Month-level measured fraction <0.20 is a descriptive coverage flag, not a model validity threshold.",
+  "limitations": [
+    "Marginal exploratory scenario ranges: not calibrated 90/95% PI or CI.",
+    "Masks overlap and dependent series are not exchangeable; no independent or distribution-free coverage guarantee.",
+    "This protocol was developed after examining data and earlier scores; all diagnostics remain internal.",
+    "The extreme-residual stress layer was added after inspecting preliminary internal coverage; its audit is exploratory, not independent confirmation.",
+    "No water-quality observations in August-October; coverage in observed seasons cannot validate those gaps.",
+    "All measured dates are held fixed; measurement uncertainty is omitted.",
+    "Water temperature, hydrology, conversion coefficients and W2 parameters remain fixed.",
+    "Seven marginal ranges are not a joint multivariate ensemble. Nitrogen closure must be enforced downstream.",
+    "Event low/high values aggregate all-lower/all-upper concentration scenarios, not probability intervals or worst-case W2 budgets."
+  ]
+}

@@ -1,0 +1,6 @@
+﻿Date,JDY,Variable,Cond_original,Cond_corrected,Reason
+2025-01-08,739,Cond,163.6384,1163.6384,Likely missing leading digit 1; corrected only after temporal-continuity and unit-range review
+2025-01-09,740,Cond,177.9245,1177.9245,Likely missing leading digit 1; corrected only after temporal-continuity and unit-range review
+2025-01-10,741,Cond,189.6174,1189.6174,Likely missing leading digit 1; corrected only after temporal-continuity and unit-range review
+2025-01-12,743,Cond,217.1179,1217.1179,Likely missing leading digit 1; corrected only after temporal-continuity and unit-range review
+2025-01-13,744,Cond,234.031,1234.031,Likely missing leading digit 1; corrected only after temporal-continuity and unit-range review

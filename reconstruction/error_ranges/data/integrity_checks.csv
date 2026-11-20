@@ -1,0 +1,8 @@
+﻿Target,Base_unchanged,Measured_bounds_fixed,Finite_bounds,Base_inside_range,Stress_contains_reference,Stress_measured_bounds_fixed,Nonnegative_lower
+NH4,True,True,True,True,True,True,True
+CODMn,True,True,True,True,True,True,True
+Cond,True,True,True,True,True,True,True
+DO,True,True,True,True,True,True,True
+TP,True,True,True,True,True,True,True
+TN,True,True,True,True,True,True,True
+Chl_a,True,True,True,True,True,True,True

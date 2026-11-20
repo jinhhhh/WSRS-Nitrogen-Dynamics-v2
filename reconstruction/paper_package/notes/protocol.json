@@ -1,0 +1,31 @@
+{
+  "seed": 20261116,
+  "outer_repeats": 5,
+  "inner_masks": 2,
+  "lengths": [
+    1,
+    3,
+    7,
+    15,
+    30,
+    60,
+    115,
+    150
+  ],
+  "models": [
+    "Linear",
+    "PCHIP",
+    "ExtraTrees",
+    "ET_bridge"
+  ],
+  "source": "reconstruction/data/CIN_2023-2024-2025_quality_checked_v2.csv",
+  "design": "Nested repeated offline masking. Inner masks do not intersect outer masks. Outer labels are removed from all inner fits.",
+  "caveats": [
+    "Outer masks may overlap; prediction pairs are not independent replicates.",
+    "Repeated evaluation informed this revised protocol; results are internal validation, not a new external independent dataset.",
+    "No observations in the long missing summer/autumn intervals: unsupported seasonal domain is not validated.",
+    "WT is a fixed existing reconstructed input; its uncertainty is not propagated.",
+    "No probabilistic intervals or significance tests are produced."
+  ],
+  "metrics": "R2 is pooled over masking prediction pairs; report Unique_dates as well as N. FlowWeightedMAE weights absolute concentration error by daily QIN."
+}

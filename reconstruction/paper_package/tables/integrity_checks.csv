@@ -1,0 +1,8 @@
+﻿Target,Missing_after_imputation,Observed_values_unchanged,Imputation_flag_matches_raw_mask
+NH4,0,True,True
+CODMn,0,True,True
+Cond,0,True,True
+DO,0,True,True
+TP,0,True,True
+TN,0,True,True
+Chl_a,0,True,True

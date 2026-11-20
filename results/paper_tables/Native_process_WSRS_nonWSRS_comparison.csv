@@ -1,0 +1,4 @@
+﻿Process,Description,Non_WSRS_days,WSRS_days,Non_WSRS_mean_tN_day,WSRS_mean_tN_day,Mean_difference_percent,Non_WSRS_median_tN_day,WSRS_median_tN_day,Median_difference_percent
+NH4OM,OM-N mineralization,667,61,10.38412418,12.66210672,21.9371658,9.145,12.295,34.44505194
+NH4NITR,Nitrification,667,61,7.071312348,4.857518361,-31.30669214,7.653,3.0865,-59.66941069
+NO3DEN,Denitrification,667,61,15.86245063,6.929145574,-56.31730724,14.39,3.782,-73.71785962

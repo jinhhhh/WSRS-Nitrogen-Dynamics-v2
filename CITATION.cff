@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the specific revised Zenodo version associated with this release."
+title: "WSRS-Nitrogen-Dynamics: revised boundary reconstruction and nitrogen-budget analysis"
+type: software
+authors:
+  - family-names: Jin
+    given-names: Haojie
+    orcid: "https://orcid.org/0009-0005-7100-3043"
+version: 2.0.0
+date-released: 2026-11-20
+license: MIT
+repository-code: "https://github.com/jinhhhh/WSRS-Nitrogen-Dynamics-v2"
+url: "https://doi.org/10.5281/zenodo.24391730"
+doi: 10.5281/zenodo.24391730

@@ -1,0 +1,8 @@
+﻿Native_field,Definition,Use_in_analysis
+NH4OM,Water-column organic-matter N mineralization to NH4,Total used once; DOM and POM components are not added again
+NH4DOM,NH4 production from dissolved organic matter decay,Component of NH4OM
+NH4POM,NH4 production from particulate organic matter decay,Component of NH4OM
+NH4NITR,Nitrification,Native NH4 sink magnitude; internal N transformation
+NO3DEN,Denitrification,Native NO3 sink magnitude; not an independently observed flux
+NH4SED,NH4 production from sediment decay,Kept separate from water-column NH4OM
+NH4SOD,SOD-associated NH4 release,Kept separate from water-column NH4OM

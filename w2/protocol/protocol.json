@@ -1,0 +1,52 @@
+{
+  "created_date": "2026-11-16",
+  "study_start": "2023-06-01",
+  "study_end": "2025-05-31",
+  "days": 731,
+  "event_windows_inclusive": [
+    [
+      21,
+      41
+    ],
+    [
+      389,
+      398
+    ],
+    [
+      413,
+      429
+    ],
+    [
+      436,
+      448
+    ]
+  ],
+  "event_days": 61,
+  "main_runs": 13,
+  "optional_runs": 4,
+  "input_files": {
+    "w2/source_baseline/cin_br1.csv": "958bb642b9e3499651889f3aa924dbad99b433f47f8c7416369a26e1c31597d9",
+    "w2/source_baseline/cdt_br1.csv": "21bce06b33723277e9b38e4b2b13c2b546996dcfccd8b2c8c5887388b5fb796d"
+  },
+  "source_reconstruction": "reconstruction/paper_package/tables/CIN_imputed_v2.csv",
+  "source_reconstruction_SHA256": "eca04d1568929242c3ea9790f5a7225000ec5860f6e875879385372cde4825f5",
+  "ranges": "reconstruction/error_ranges/data/daily_reconstruction_error_ranges.csv",
+  "ranges_SHA256": "1ee89cbb4e538abbc46ea9653f27366e1e17de7c17e62e1b25393fb69181934d",
+  "methods": "reconstruction/error_ranges/data/alternative_method_reconstructions.csv",
+  "methods_SHA256": "07da277a6737112c037b0f1d7518c11fe1dc12888852464812ca06a0651638fb",
+  "NOx_rule": "Use TN and preserve the user-confirmed original period factors (0.89,0.82,0.79,0.714).",
+  "branch_factor_expression": "48.101/51.899",
+  "branch_factor": 0.9268193992177113,
+  "interpretation": "Deterministic conditional concentration-input stress scenarios, not calibrated prediction intervals.",
+  "assumptions": [
+    "Daily TDS/Cond, ALG1/Chl-a, LDOM/CODMn and LPOM/CODMn conversion coefficients frozen to supplied baseline.",
+    "NOx reconstructed mask follows TN because NOx is explicitly derived from TN here, not measured independently.",
+    "Water temperature, hydrology, other boundary inputs, parameters and model structure held fixed.",
+    "TP is not an active column in the supplied CIN/CDT; no TP perturbation files generated.",
+    "No TIN file supplied and no temperature scenarios can be encoded in CIN/CDT.",
+    "Complete TN closure requires actual model organic/algal nitrogen content coefficients; not checked or claimed.",
+    "An inorganic feasibility guard clips NOx if NH4+NOx exceeds its TN driver; all adjustments are recorded.",
+    "Cross scenarios are prespecified opposing input combinations, not proven W2 budget extrema.",
+    "No W2 model has been executed by this builder."
+  ]
+}

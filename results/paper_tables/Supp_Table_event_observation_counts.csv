@@ -1,0 +1,5 @@
+﻿Event,Days,TN_observed_days,TN_imputed_days,NH4_observed_days,NH4_imputed_days,CODMn_observed_days,CODMn_imputed_days,DO_observed_days,DO_imputed_days,Chl_a_observed_days,Chl_a_imputed_days,Cond_observed_days,Cond_imputed_days,TP_observed_days,TP_imputed_days
+E1,21,17,4,17,4,13,8,18,3,18,3,18,3,17,4
+E2,10,3,7,3,7,0,10,3,7,0,10,3,7,3,7
+E3,17,0,17,0,17,0,17,0,17,0,17,0,17,0,17
+E4,13,0,13,0,13,0,13,0,13,0,13,0,13,0,13
